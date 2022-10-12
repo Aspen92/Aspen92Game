@@ -2,65 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Google Fonts Link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
     <!--Link to CSS-->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <title>Document</title>
 </head>
 
 <body>
     <!--Heading with logo-->
-    <h1 class="heading text-center">
-        Rock, Paper, Scissors, Lizard, Spock
-    </h1>
+    <h1 class="heading text-center">Rock, Paper, Scissors, Lizard, Spock</h1>
     <div class="box">
         <div class="flex">
-            <div id="player-choice">
-
-            </div>
+            <div id="player-choice"></div>
 
             <div>
                 <h1>You Won!</h1>
             </div>
 
-            <div id="computer-choice">
-
-            </div>
+            <div id="computer-choice"></div>
         </div>
-
 
         <div class="score-area flex">
-            <p class="scores">Your Score: <span class="score-result">0</span></p>
-            <p class="scores">Computer Score: <span class="score-result">0</span></p>
+            <p class="scores">Your Score: <span id="player-score">0</span></p>
+            <p class="scores">Computer Score: <span id="computer-score">0</span></p>
         </div>
-
 
         <div class="game-area flex">
             <div class="selections-area">
-                <button class="selection" data-index="0">
-                    ✊
-                </button>
-                <button class="selection" data-index="1">
-                    ✋
-                </button>
-                <button class="selection" data-index="2">
-                    ✌️
-                </button>
-                <button class="selection" data-index="3">
-                    🤏
-                </button>
-                <button class="selection" data-index="4">
-                    🖖
-                </button>
+                <button class="selection" data-index="0">✊</button>
+                <button class="selection" data-index="1">✋</button>
+                <button class="selection" data-index="2">✌️</button>
+                <button class="selection" data-index="3">🤏</button>
+                <button class="selection" data-index="4">🖖</button>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2rem;
 }
 
@@ -27,9 +27,17 @@ body {
 
 .box {
     border: solid 0.1rem grey;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .selection {
     font-size: 6rem;
+}
+
+#player-choice {
+    font-size: 8rem;
+}
+
+#computer-choice {
+    font-size: 8rem;
 }

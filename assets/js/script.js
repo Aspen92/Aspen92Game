@@ -37,6 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
         intro.style.opacity = 0;
     };
 
+    document.getElementById("restart-btn").addEventListener('click', function () {
+        window.location.reload();
+        return false;
+    });
+
+
 
     for (let button of buttons) {
         button.addEventListener("click", (event) => {

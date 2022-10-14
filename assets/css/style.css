@@ -32,7 +32,7 @@ body {
 
 .box {
     border: solid 0.1rem grey;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .selection {
@@ -48,4 +48,12 @@ body {
     font-size: 8rem;
 }
 
-#restart-btn {}
+.score-area {
+    margin-top: 3rem;
+}
+
+#restart-btn {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}

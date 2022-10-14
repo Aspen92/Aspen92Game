@@ -9,6 +9,11 @@
     display: flex;
     justify-content: space-around;
     padding: 2rem;
+    height: 180px;
+}
+
+#intro {
+    font-size: 2rem;
 }
 
 body {
@@ -32,6 +37,7 @@ body {
 
 .selection {
     font-size: 6rem;
+    cursor: pointer;
 }
 
 #player-choice {
@@ -41,3 +47,5 @@ body {
 #computer-choice {
     font-size: 8rem;
 }
+
+#restart-btn {}

@@ -10,7 +10,7 @@ h2,
 h3,
 h5,
 p {
-    color: #F2E9E4;
+    color: rgb(220, 220, 220);
 }
 
 .flex {
@@ -25,7 +25,7 @@ p {
 }
 
 body {
-    background-color: #1B312D;
+    background-color: #282B31;
     width: 50%;
     margin: 0 auto;
 }
@@ -42,14 +42,23 @@ body {
 .box {
     background-color: #32494F;
     padding: 2rem;
+    border: 0.5px solid rgb(220, 220, 220);
+    border-radius: 5px;
 }
 
 .selection {
     background: none;
-    background: #e2c7b9;
+    background: rgb(220, 220, 220);
+    border: 5px rgb(220, 220, 220);
     border-radius: 5px;
+    color: rgb(220, 220, 220);
     font-size: 6rem;
+    margin: 0.2rem;
     cursor: pointer;
+}
+
+.selection:hover {
+    transform: scale(1.1);
 }
 
 #player-choice {
@@ -60,8 +69,12 @@ body {
     font-size: 8rem;
 }
 
+.scores {
+    font-size: 1.5rem;
+}
+
 .score-area {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .footer-btns {
@@ -74,7 +87,8 @@ body {
 #rules-btn {
     background: none;
     border: none;
-    background: #e2c7b9;
+    background: #32494F;
+    color: rgb(220, 220, 220);
     border-radius: 5px;
     width: 8rem;
     font-size: 1rem;
@@ -83,42 +97,38 @@ body {
     cursor: pointer;
 }
 
-/* The Modal (background) */
+#restart-btn:hover {
+    transform: scale(1.1);
+}
+
+#rules-btn:hover {
+    transform: scale(1.1);
+}
+
+
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #32494F;
     margin: 15% auto;
-    /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(220, 220, 220);
     width: 60%;
-    /* Could be more or less, depending on screen size */
 }
 
-/* The Close Button */
 .close {
-    color: #aaa;
+    color: rgb(220, 220, 220);
     float: right;
     font-size: 28px;
     font-weight: bold;

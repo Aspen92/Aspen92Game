@@ -18,6 +18,8 @@
 </head>
 
 <body>
+
+    <div><img src="" alt=""></div>
     <!--Heading with logo-->
     <h1 class="heading text-center">Rock, Paper, Scissors, Lizard, Spock</h1>
     <div class="box">
@@ -25,7 +27,7 @@
             <div id="player-choice"></div>
             <div>
                 <h1 class="text-center" id="winner"></h1>
-                <h5 class="text-center" id="intro">Start the game!</h5>
+                <h5 class="text-center" id="intro">Start the game <br> by choosing an option!</h5>
             </div>
             <div id="computer-choice"></div>
         </div>
@@ -33,6 +35,7 @@
         <div class="score-area flex">
             <p class="scores">Your Score: <span id="player-score">0</span></p>
             <p class="scores">Computer Score: <span id="computer-score">0</span></p>
+
         </div>
 
         <div class="game-area flex">
@@ -60,7 +63,15 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 class="text-center">Rules</h2>
+            <br>
             <p class="text-center">
+                The game is an expansion on the game Rock, Paper, Scissors. Each player picks a variable and reveals it
+                at the same time. The winner is the one who defeats the others. In a tie, the process is repeated until
+                a winner is found.
+                <br>
+                <br>
+                Rock crushes Scissors
+                <br>
                 Scissors cuts Paper
                 <br>
                 Paper covers Rock
@@ -78,8 +89,7 @@
                 Paper disproves Spock
                 <br>
                 Spock vaporizes Rock
-                <br>
-                (and as it always has) Rock crushes Scissors</p>
+            </p>
         </div>
 
     </div>

@@ -26,8 +26,6 @@ p {
 
 body {
     background-color: #282B31;
-    width: 50%;
-    margin: 0 auto;
 }
 
 .text-center {
@@ -40,10 +38,18 @@ body {
 }
 
 .box {
+    width: 50%;
+    margin: 0 auto;
     background-color: #32494F;
     padding: 2rem;
     border: 0.5px solid rgb(220, 220, 220);
     border-radius: 5px;
+}
+
+.selections-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .selection {
@@ -78,9 +84,11 @@ body {
 }
 
 .footer-btns {
+    width: 50%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #restart-btn,
@@ -104,7 +112,6 @@ body {
 #rules-btn:hover {
     transform: scale(1.1);
 }
-
 
 .modal {
     display: none;
@@ -139,4 +146,181 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    #intro {
+        font-size: 1.5rem;
+    }
+
+    .scores {
+        font-size: 0.8rem;
+    }
+
+    #winner {
+        font-size: 1.5rem;
+    }
+
+    #player-choice,
+    #computer-choice {
+        font-size: 5rem;
+    }
+
+    .selection {
+        font-size: 3.5rem;
+    }
+
+    .flex {
+        height: 120px;
+    }
+
+    .footer-btns {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    #intro {
+        font-size: 1.5rem;
+    }
+
+    .scores {
+        font-size: 0.8rem;
+    }
+
+    #winner {
+        font-size: 1.5rem;
+    }
+
+    #player-choice,
+    #computer-choice {
+        font-size: 5rem;
+    }
+
+    .selection {
+        font-size: 3.5rem;
+    }
+
+    .flex {
+        height: 120px;
+    }
+
+    .footer-btns {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    #intro {
+        font-size: 1.5rem;
+    }
+
+    .scores {
+        font-size: 1rem;
+    }
+
+    #winner {
+        font-size: 2rem;
+    }
+
+    #player-choice,
+    #computer-choice {
+        font-size: 6rem;
+    }
+
+    .selection {
+        font-size: 4.5rem;
+    }
+
+    .flex {
+        height: 120px;
+    }
+
+    .footer-btns {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1300px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .box {
+        width: 70%;
+    }
+
+    #intro {
+        font-size: 1.5rem;
+    }
+
+    .scores {
+        font-size: 1.2rem;
+    }
+
+    #winner {
+        font-size: 2rem;
+    }
+
+    #player-choice,
+    #computer-choice {
+        font-size: 7rem;
+    }
+
+    .selection {
+        font-size: 6rem;
+    }
+
+    .flex {
+        height: 120px;
+    }
+
+    .footer-btns {
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
 }

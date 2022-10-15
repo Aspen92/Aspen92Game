@@ -12,16 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
     <!--Link to CSS-->
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Document</title>
+    <title>Rock, Paper, Scissor, Lizard, Spock - Game</title>
 </head>
 
 <body>
-
-    <div><img src="" alt=""></div>
-    <!--Heading with logo-->
+    <!--Heading-->
     <h1 class="heading text-center">Rock, Paper, Scissors, Lizard, Spock</h1>
+    <!-- Div containing player choice, result and computer choice -->
     <div class="box">
         <div class="flex">
             <div id="player-choice"></div>
@@ -31,35 +30,27 @@
             </div>
             <div id="computer-choice"></div>
         </div>
-
+        <!-- Div containing the score area -->
         <div class="score-area flex">
             <p class="scores">Your Score: <span id="player-score">0</span></p>
             <p class="scores">Computer Score: <span id="computer-score">0</span></p>
-
         </div>
-
-        <div class="game-area flex">
-            <div class="selections-area">
-                <button class="selection" data-index="0">✊</button>
-                <button class="selection" data-index="1">✋</button>
-                <button class="selection" data-index="2">✌️</button>
-                <button class="selection" data-index="3">🤏</button>
-                <button class="selection" data-index="4">🖖</button>
-            </div>
+        <!-- Div containing the selections area -->
+        <div class="selections-area">
+            <button class="selection" data-index="0">✊</button>
+            <button class="selection" data-index="1">✋</button>
+            <button class="selection" data-index="2">✌️</button>
+            <button class="selection" data-index="3">🤏</button>
+            <button class="selection" data-index="4">🖖</button>
         </div>
-
     </div>
-
-    <!-- Trigger/Open The Modal -->
+    <!-- Div containing the footer buttons -->
     <div class="footer-btns">
         <button id="rules-btn">Rules</button>
         <button id="restart-btn">Restart</button>
     </div>
-
-    <!-- The Modal -->
+    <!-- Div containing the rules modal/pop-up -->
     <div id="myModal" class="modal">
-
-        <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 class="text-center">Rules</h2>
@@ -91,15 +82,13 @@
                 Spock vaporizes Rock
             </p>
         </div>
-
     </div>
-
 
     <footer>
     </footer>
 
     <!--Link to JavaScript-->
-    <script src="/assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
